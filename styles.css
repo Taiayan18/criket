@@ -7,6 +7,11 @@
     margin-left: 50px;
 }
 
+.menu2{
+    margin-left: 50px;
+    display: none;
+}
+
 .icon{
     
     margin-right: 30px;
@@ -41,6 +46,8 @@
 h1{
     width: 100%;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-block: 30px;
 }
 
 .catagory{
@@ -86,13 +93,16 @@ h4:hover{
 
 .box2{
     border: 1px solid black;
-    height: 500px;
+    
+    border: none;
     gap: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 20px ;
 
 }
+
 
 .practise{
     width: 48%;
@@ -103,6 +113,45 @@ h4:hover{
     width: 48%;
 }
 
+
+.box3{
+    border: 1px solid black;
+     gap: 20px;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-block: 20px;
+  
+}
+
+.b3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.b2{
+    height: 150px;
+   width: 150px;
+    border-radius: 200px 200px 200px 200px;
+    background-color: white;
+   
+
+}
+
+.b2:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    background-color: rgba(179, 180, 180, 0.571);
+    
+}
+
+.cricket{
+    height: 120px;
+    width: 120px;
+}
 
 
 
@@ -142,11 +191,27 @@ h4:hover{
 }
 
 
-@media(max-width :1050px){
+@media(max-width :1060px){
     .practise{
         width: 100%;
     }
      .practise2{
         width: 100%;
     }
+}
+
+@media(max-width:400px){
+
+    .search{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+
+    .menu2{
+        display: block;
+    }
+
+   
 }
