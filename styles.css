@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    margin-left: 50px;
+}
+
+.icon{
+    
+    margin-right: 30px;
+}
+
+
+.logo{
+    height: 138px;
+}
+
+.b1{
+   background-color: blanchedalmond;
+}
+
+.search{
+    display: none;
+}
+
+.slide{
+   max-height: 550px;
+    width: 100%;
+    
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-block: 80px;
+    
+}
+h1{
+    width: 100%;
+    text-align: center;
+}
+
+.catagory{
+    border: 1px solid black;
+    height: 140px;
+    background-color: rgba(57, 59, 59, 0.509);
+    width: 140px;
+    border-radius: 150px 150px 150px 150px;
+
+    
+
+    img{
+        border-radius: 200px 200px 200px 200px;
+
+    }
+}
+
+.catagory:hover{
+    background-color: rgba(197, 199, 200, 0.77);
+}
+
+
+
+.images{
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 100px;
+    width: 120px;
+}
+
+
+
+h4{
+    text-align: center;
+    
+
+   
+}
+
+h4:hover{
+    text-decoration: underline;
+}
+
+.box2{
+    border: 1px solid black;
+    height: 500px;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.practise{
+    width: 48%;
+
+}
+
+.practise2{
+    width: 48%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width : 1000px){
+    .icon{
+        display: none;
+    }
+    .search{
+        display: block;
+    }
+
+    .logo{
+        height: 100px;
+    }
+
+    .h3{
+        font-size: 10px;
+    }
+
+    .c1{
+        font-size: 10px;
+    }
+    
+}
+
+
+@media(max-width :1050px){
+    .practise{
+        width: 100%;
+    }
+     .practise2{
+        width: 100%;
+    }
+}
