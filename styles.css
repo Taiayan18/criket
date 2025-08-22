@@ -44,6 +44,7 @@
     
 }
 h1{
+    font-size: 40px;
     width: 100%;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -129,12 +130,13 @@ h4:hover{
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
+    padding-block: 30px;
 }
 
 
 .b2{
     height: 150px;
-   width: 150px;
+   width: 250px;
     border-radius: 200px 200px 200px 200px;
     background-color: white;
    
@@ -150,8 +152,401 @@ h4:hover{
 
 .cricket{
     height: 120px;
-    width: 120px;
+    width: 100%;
 }
+
+
+
+.conta{
+    border: 1px solid black;
+
+    height: auto;
+    width: 100%;
+    background-color: beige;
+
+}
+
+.h1{
+    padding-top: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.shop{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-block: 30px ;
+}
+
+.shop2{
+    border:  1px solid black;
+    height: 400px;
+    width: 230px;
+}
+
+.shop3{
+    padding-top: 30px;
+    background-image: url(https://5.imimg.com/data5/SELLER/Default/2025/4/504324253/BK/IH/KE/38255385/reebok-cricket-kit-with-full-accessories-500x500.jpg);
+    height: 280px;
+    background-size: cover;
+}
+
+.shop3:hover{
+        padding-top: 30px;
+    background-image: url(https://th.bing.com/th/id/OIP.2On848_rYd_PIO3BJxeAogHaHa?w=179&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3);
+    height: 250px;
+    background-size: cover;
+}
+
+.shop4{
+    padding-top: 30px;
+    background-image: url(https://n2.sdlcdn.com/imgs/a/h/k/Mrf-Genius-Cricket-Kit-Helmet-SDL404208508-1-5be7c.jpg);
+    height: 280px;
+    background-size: cover;
+}
+
+.shop4:hover{
+        padding-top: 30px;
+    background-image: url(https://www.bing.com/th/id/OIP.vi-J76GlEwxXYYd9LE6EzAHaHa?w=194&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2);
+    height: 280px;
+    background-size: cover;
+}
+
+.shop5{
+    padding-top: 30px;
+    background-image: url(https://th.bing.com/th/id/OIP.WSlrEs8wg3kGJ13q689LuQHaHa?w=187&h=187&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=
+);
+    height: 280px;
+    background-size: cover;
+}
+
+.shop5:hover{
+        padding-top: 30px;
+    background-image: url(https://tse1.mm.bing.net/th/id/OIP.ailSYTiAbwnjRMWxp9DsRwHaHa?pid=ImgDet&w=178&h=178&c=7&dpr=1.5&o=7&rm=3);
+    height: 280px;
+    background-size: cover;
+}
+
+.shop6{
+ 
+    padding-top: 30px;
+    background-image: url(https://tse4.mm.bing.net/th/id/OIP.eXEE0VWZ0MMyiYyEs7Hw0AAAAA?w=470&h=500&rs=1&pid=ImgDetMain&o=7&rm=3);
+    height: 280px;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.shop6:hover{
+        padding-top: 30px;
+    background-image: url(https://tse1.mm.bing.net/th/id/OIP.2tEUMJc1LHkiHRVyLndliQHaHa?pid=ImgDet&w=178&h=178&c=7&dpr=1.5&o=7&rm=3);
+    height: 280px;
+    background-size: cover;
+}
+
+.shop7{
+ 
+    padding-top: 30px;
+    background-image: url(https://tse4.mm.bing.net/th/id/OIP.LMiA-vpj-58ngZ8nmIl7FQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3);
+    height: 280px;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.shop7:hover{
+        padding-top: 30px;
+    background-image: url(https://th.bing.com/th/id/OIP.RA7iBncWcMrp2NiIwlD0aAHaHa?w=186&h=186&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3);
+    height: 280px;
+    background-size: cover;
+}
+
+
+.shop8{
+ 
+    padding-top: 30px;
+    background-image: url(https://th.bing.com/th/id/OIP.x9j6PNWO9VU6SvOcu2ZOjQHaHa?w=196&h=196&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3);
+    height: 280px;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.shop8:hover{
+        padding-top: 30px;
+    background-image: url(https://th.bing.com/th/id/OIP.-qnVcwHy5yEhYkRH2Um1DgHaHa?w=207&h=207&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3);
+    height: 280px;
+    background-size: cover;
+}
+
+
+.shop9{
+ 
+    padding-top: 30px;
+    background-image: url(https://th.bing.com/th/id/OIP.zFBcSRbaKOFc2GCceFzfAQHaHa?w=181&h=181&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3);
+    height: 280px;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.shop9:hover{
+        padding-top: 30px;
+    background-image: url(https://th.bing.com/th/id/OIP.JZxQbzlAHMs4VkdCCcw8OwHaHa?w=181&h=181&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3);
+    height: 280px;
+    background-size: cover;
+}
+
+
+.shop10{
+ 
+    padding-top: 30px;
+    background-image: url(https://th.bing.com/th/id/OIP.HtGoW6nGNM6Mn9YShGcnFgHaHa?w=164&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3);
+    height: 280px;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.shop10:hover{
+        padding-top: 30px;
+    background-image: url(https://th.bing.com/th/id/OIP.P4CgWKq4Y_QfWJ9Ihoms5wHaHX?w=196&h=195&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3);
+    height: 280px;
+    background-size: cover;
+}
+
+
+.buy1{
+ 
+    padding-top: 30px;
+    background-image: url(https://th.bing.com/th/id/OIP.9t1EiLYU72bLffM58Y8DRQHaHa?w=186&h=186&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3);
+    height: 280px;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.buy1:hover{
+        padding-top: 30px;
+    background-image: url(https://th.bing.com/th/id/OIP.SZPGfPj3ya3kQGA_cHc17QHaJ3?w=140&h=186&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3);
+    height: 280px;
+    background-size: cover;
+}
+
+
+.buy2{
+ 
+    padding-top: 30px;
+    background-image: url(https://tse3.mm.bing.net/th/id/OIP.e4ZbBHrDP3vT1YlTb8g8HAHaHa?pid=ImgDet&w=178&h=178&c=7&dpr=1.5&o=7&rm=3);
+    height: 280px;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.buy2:hover{
+        padding-top: 30px;
+    background-image: url(https://tse3.mm.bing.net/th/id/OIP.quvpjIMLl0Gp_WmgforjqwHaHa?pid=ImgDet&w=178&h=178&c=7&dpr=1.5&o=7&rm=3);
+    height: 280px;
+    background-size: cover;
+}
+
+
+.buy3{
+ 
+    padding-top: 30px;
+    background-image: url(https://th.bing.com/th/id/OIP.cjbGkphoGQyjxGlz3tp-CgHaHa?w=182&h=182&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3);
+    height: 280px;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.buy3:hover{
+        padding-top: 30px;
+    background-image: url(https://cricketershop.com/cdn/shop/files/dsc-batting-8-dsc-jaffa-22-neo-bl-or24-cricket-rubber-shoes-size-39042034598068.jpg?v=1745776441&width=720);
+    height: 280px;
+    background-size: cover;
+}
+
+
+.buy4{
+ 
+    padding-top: 30px;
+    background-image: url(https://tse4.mm.bing.net/th/id/OIP.0cbeaUUYOc5T96PxX8xfHQHaHa?pid=ImgDet&w=474&h=474&rs=1&o=7&rm=3);
+    height: 280px;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.buy4:hover{
+        padding-top: 30px;
+    background-image: url(https://tse4.mm.bing.net/th/id/OIP.TKZDhCvTIw3qhDfdEoE_2gHaHa?pid=ImgDet&w=178&h=178&c=7&dpr=1.5&o=7&rm=3);
+    height: 280px;
+    background-size: cover;
+}
+
+.buy5{
+ 
+    padding-top: 30px;
+    background-image: url(https://cricketershop.com/cdn/shop/files/Somi_Storm_English_Willow_Cricket_Bat_Size_SH_front_view.jpg?v=1746437849&width=1080https://cricketershop.com/cdn/shop/files/Somi_Msd_Player_English_Willow_Cricket_Bat_Size_SH_front_view.jpg?v=1746437694&width=1080);
+    height: 280px;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.buy5:hover{
+        padding-top: 30px;
+    background-image: url(https://tse3.mm.bing.net/th/id/OIP.lrpg9k52fTc0YCYUzz_UHgHaHa?pid=ImgDet&w=199&h=199&c=7&dpr=1.5&o=7&rm=3);
+    height: 280px;
+    background-size: cover;
+}
+
+
+.buy6{
+ 
+    padding-top: 30px;
+    background-image: url(https://www.tcscricket.com/wp-content/uploads/2022/04/SS-TON-ELITE-ENGLISH-WILLOW-CRICKET-BAT-1.jpg);
+    height: 280px;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.buy6:hover{
+        padding-top: 30px;
+    background-image: url(https://tse3.mm.bing.net/th/id/OIP.FcT59kHcKTJ_TmTLf29zRwAAAA?pid=ImgDet&w=178&h=175&c=7&dpr=1.5&o=7&rm=3);
+    height: 280px;
+    background-size: cover;
+}
+
+
+
+.buy7{
+ 
+    padding-top: 30px;
+    background-image: url(https://th.bing.com/th/id/OIP.aN427W7s_g6LDRi83uWdIAHaHa?w=155&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3);
+    height: 280px;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.buy7:hover{
+        padding-top: 30px;
+    background-image: url(https://th.bing.com/th/id/OIP.oDwHex-PFJGZOvWw3gv9wQHaHa?w=154&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3);
+    height: 280px;
+    background-size: cover;
+}
+
+
+.buy8{
+ 
+    padding-top: 30px;
+    background-image: url(https://th.bing.com/th/id/OIP.MoWF2QN4y9TClqaGtoDaLAHaJQ?w=155&h=194&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3);
+    height: 280px;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.buy8:hover{
+        padding-top: 30px;
+    background-image: url(https://th.bing.com/th/id/OIP.nM6rqRlyH0ObakX6OGCRbAHaJQ?w=155&h=194&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3);
+    height: 280px;
+    background-size: cover;
+}
+
+
+.buy9{
+ 
+    padding-top: 30px;
+    background-image: url(https://th.bing.com/th/id/OIP.pb8cmAkkq_0f-OIlbLMP8gHaLH?w=202&h=303&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+    height: 280px;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.buy9:hover{
+        padding-top: 30px;
+    background-image: url(https://th.bing.com/th/id/OIP.XRYfPQ6ZEKyJk3fMzHIhHgAAAA?w=202&h=352&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+    height: 280px;
+    background-size: cover;
+}
+
+
+.buy10{
+ 
+    padding-top: 30px;
+    background-image: url(https://th.bing.com/th/id/OIP.2_V5KI4TbZAi-y4uEIX1xAHaHa?w=204&h=204&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+    height: 280px;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.buy10:hover{
+        padding-top: 30px;
+    background-image: url(https://th.bing.com/th/id/OIP.1ms-OjToh3Da5lDVLZQvjAHaHa?w=204&h=204&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+    height: 280px;
+    background-size: cover;
+}
+
+
+.buy11{
+ 
+    padding-top: 30px;
+    background-image: url(https://i5.walmartimages.com/asr/b978acb7-3a6f-4458-a6a4-1d3318cb4102_1.5c8df4a352fce5f84c91fcd291d7ad35.jpeg);
+    height: 280px;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.buy11:hover{
+        padding-top: 30px;
+    background-image: url(https://tse1.mm.bing.net/th/id/OIP.ABfkRzi8TRtzLeklL127rAHaHa?pid=ImgDet&w=178&h=178&c=7&dpr=1.5&o=7&rm=3);
+    height: 280px;
+    background-size: cover;
+}
+
+.buy12{
+ 
+    padding-top: 30px;
+    background-image: url(https://th.bing.com/th/id/OIP.TEikxR5a6eqt_iFvZ5lCtgHaI1?w=157&h=187&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3);
+    height: 280px;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.buy12:hover{
+        padding-top: 30px;
+    background-image: url(https://th.bing.com/th/id/OIP.PO8sz8jQOj7g4hTQ0zGyugHaJ5?w=141&h=189&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+    height: 280px;
+    background-size: cover;
+}
+
+
+
+p{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+   padding-top: 250px;
+}
+
+.b5{
+    height: 40px;
+    width: 129px;
+    background-color: rgb(45, 33, 62);
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.b5:hover{
+    height: 40px;
+    width: 129px;
+     background-color: rgba(51, 27, 85, 0.653);
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
 
 
 
